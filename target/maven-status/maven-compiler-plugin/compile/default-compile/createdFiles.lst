@@ -1,0 +1,12 @@
+com/gcu/cloudexample/services/TaskService.class
+com/gcu/cloudexample/services/UserService.class
+com/gcu/cloudexample/dao/UserDAOImpl$1.class
+com/gcu/cloudexample/controller/TaskController.class
+com/gcu/cloudexample/model/Task.class
+com/gcu/cloudexample/dao/UserDAO.class
+com/gcu/cloudexample/dao/TaskDAOImpl.class
+com/gcu/cloudexample/dao/TaskDAO.class
+com/gcu/cloudexample/model/User.class
+com/gcu/cloudexample/CloudexampleApplication.class
+com/gcu/cloudexample/controller/UserController.class
+com/gcu/cloudexample/dao/UserDAOImpl.class

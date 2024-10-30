@@ -1,0 +1,11 @@
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/CloudexampleApplication.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/controller/TaskController.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/controller/UserController.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/dao/TaskDAO.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/dao/TaskDAOImpl.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/dao/UserDAO.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/dao/UserDAOImpl.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/model/Task.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/model/User.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/services/TaskService.java
+/Users/rolandomarin/Developer/School Projects/Fall-25/CST-323/cloudexample/src/main/java/com/gcu/cloudexample/services/UserService.java
