@@ -10,3 +10,4 @@ com/gcu/cloudexample/model/User.class
 com/gcu/cloudexample/CloudexampleApplication.class
 com/gcu/cloudexample/controller/UserController.class
 com/gcu/cloudexample/dao/UserDAOImpl.class
+com/gcu/cloudexample/logging/LoggingAspect.class
