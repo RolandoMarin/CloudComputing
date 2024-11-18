@@ -2,6 +2,9 @@ package com.gcu.cloudexample.dao;
 
 import com.gcu.cloudexample.model.Task;
 import com.gcu.cloudexample.model.User;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
@@ -14,6 +17,7 @@ import java.util.Optional;
 
 @Repository
 public class TaskDAOImpl implements TaskDAO {
+    private static final Logger logger = LoggerFactory.getLogger(TaskDAOImpl.class);
 
     @Autowired
     private DataSource dataSource;
@@ -26,6 +30,8 @@ public class TaskDAOImpl implements TaskDAO {
 
     @Override
     public List<Task> findByUser(User user) {
+        logger.debug("Entering findByUser method for user {}", user.getId());
+        
         String sql = "SELECT * FROM tasks WHERE user_id = ?";
         List<Task> tasks = new ArrayList<>();
 
@@ -41,7 +47,8 @@ public class TaskDAOImpl implements TaskDAO {
                         
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.error("Error in findByUser method: {}", e.getMessage());
+            throw e;
         }
 
         return tasks;
